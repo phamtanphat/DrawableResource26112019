@@ -2,13 +2,17 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="#85AA91"
     android:layout_height="match_parent">
 
-   <Button
-       android:background="@drawable/bg_button_press"
-       android:text="State"
+
+   <ImageView
+       android:id="@+id/imageClip"
        android:layout_centerInParent="true"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"/>
+       android:scaleType="fitXY"
+       android:adjustViewBounds="true"
+       android:src="@drawable/bg_image_clip"
+       android:layout_width="250dp"
+       android:layout_height="250dp"/>
 
 </RelativeLayout>
