@@ -5,7 +5,6 @@
     android:background="#85AA91"
     android:layout_height="match_parent">
 
-
    <ImageView
        android:id="@+id/imageClip"
        android:layout_centerInParent="true"
